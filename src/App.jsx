@@ -1,9 +1,9 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Login from "./Components/Login";
-import About from "./About";
+import About from "./Components/About";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Home";
+import Home from "./Components/Home";
 function App() {
   const router = createBrowserRouter([
     {
